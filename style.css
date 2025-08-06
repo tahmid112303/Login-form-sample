@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 65%;
+    height: 90vh;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
+
+.login-container h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.login-container input{
+    height: 40px;
+    width: 300px;
+}
+
+.login-container textarea{
+    height: 150px;
+    width: 300px;
+}
+
+.login-container button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    width: 300px;
+    font-size: 1.1em;
+}
+
+.icons{
+    width: 35%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.icons ul{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 170px;
+    margin-left: 100px;
+}
+.icons ul li{
+    list-style: none;
+}
+.icons ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+i{
+    font-size: 2em;
+}
